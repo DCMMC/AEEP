@@ -1,2 +1,1 @@
-# AEEP
-AEEP: Automated Enclave EVM Partition
+# AEEP: Automated Enclave EVM Partition
