@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{68829dc3-6f9d-4b25-b97f-5f7bcd4b7bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c4a68c55-a473-4377-a77c-64a3e3347ee9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\div.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enclave_u.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enclave_args.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enclave_interface.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\div.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eEVM\disassembler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eEVM\processor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eEVM\stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eEVM\transaction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eEVM\util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eEVM\simple\simpleaccount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eEVM\simple\simpleglobalstate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eEVM\simple\simplestorage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keccak\KeccakHash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keccak\KeccakP-1600-opt64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keccak\KeccakSpongeWidth1600.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keccak\SimpleFIPS202.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\m_contract\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enclave_u.c">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enclave_host.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\erc20\main2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\vote\main3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\openauction\main4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\etherscan\main5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EdlItem Include="..\enclave\enclave.edl">
+      <Filter>Source Files</Filter>
+    </EdlItem>
+  </ItemGroup>
+</Project>
