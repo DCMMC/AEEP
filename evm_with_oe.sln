@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "evm", "evm\evm.vcxproj", "{824E818A-0D64-4714-83B1-69F34365AC12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enclave", "enclave\enclave.vcxproj", "{4E3C0F91-4F56-452D-92D7-ABC4C2C831FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{824E818A-0D64-4714-83B1-69F34365AC12}.Debug|x64.ActiveCfg = Debug|x64
+		{824E818A-0D64-4714-83B1-69F34365AC12}.Debug|x64.Build.0 = Debug|x64
+		{824E818A-0D64-4714-83B1-69F34365AC12}.Debug|x86.ActiveCfg = Debug|Win32
+		{824E818A-0D64-4714-83B1-69F34365AC12}.Debug|x86.Build.0 = Debug|Win32
+		{824E818A-0D64-4714-83B1-69F34365AC12}.Release|x64.ActiveCfg = Release|x64
+		{824E818A-0D64-4714-83B1-69F34365AC12}.Release|x64.Build.0 = Release|x64
+		{824E818A-0D64-4714-83B1-69F34365AC12}.Release|x86.ActiveCfg = Release|Win32
+		{824E818A-0D64-4714-83B1-69F34365AC12}.Release|x86.Build.0 = Release|Win32
+		{4E3C0F91-4F56-452D-92D7-ABC4C2C831FA}.Debug|x64.ActiveCfg = Debug|x64
+		{4E3C0F91-4F56-452D-92D7-ABC4C2C831FA}.Debug|x64.Build.0 = Debug|x64
+		{4E3C0F91-4F56-452D-92D7-ABC4C2C831FA}.Debug|x86.ActiveCfg = Debug|x64
+		{4E3C0F91-4F56-452D-92D7-ABC4C2C831FA}.Release|x64.ActiveCfg = Release|x64
+		{4E3C0F91-4F56-452D-92D7-ABC4C2C831FA}.Release|x64.Build.0 = Release|x64
+		{4E3C0F91-4F56-452D-92D7-ABC4C2C831FA}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0E00798-D0E1-4D17-957B-A5C040CB5DB7}
+	EndGlobalSection
+EndGlobal
