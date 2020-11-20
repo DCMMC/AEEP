@@ -97,11 +97,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <EdlItem Include="..\enclave\enclave.edl">
       <Filter>Source Files</Filter>
     </EdlItem>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

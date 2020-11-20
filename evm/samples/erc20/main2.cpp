@@ -166,7 +166,7 @@ void print_erc20_state(
 
 
 
-int main(int argc, char** argv) {
+int main2(int argc, char** argv) {
 
   srand(time(nullptr));
 

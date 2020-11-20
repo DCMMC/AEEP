@@ -1,0 +1,82 @@
+﻿  Generating edge routine, for the Open Enclave SDK.
+  Processing ..\enclave\enclave.edl.
+  Processing C:\Users\DCMMC\Downloads\AEEP-main\packages\open-enclave-cross.0.12.0.2\build\native\win\sgx\default\release\include\openenclave\edl\sgx\cpu.edl.
+  Success.
+  enclave_host.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  enclave_u.c
+  div.cpp
+  main2.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\samples\erc20\main2.cpp(171,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  main5.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(288,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(334,14): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(394,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(453,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(461,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(479,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(487,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(512,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(537,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\enclave\include\myAes256.hpp(557,12): warning C5033: “register”不再为受支持的存储类
+C:\Users\DCMMC\Downloads\AEEP-main\evm\samples\etherscan\main5.cpp(32,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\samples\etherscan\main5.cpp(78,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\samples\etherscan\main5.cpp(171,22): warning C4101: “c”: 未引用的局部变量
+C:\Users\DCMMC\Downloads\AEEP-main\evm\samples\etherscan\main5.cpp(240,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  main.cpp
+  main4.cpp
+  main3.cpp
+  disassembler.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  processor.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\src\eEVM\processor.cpp(65,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\src\eEVM\processor.cpp(108,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  simpleaccount.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  simpleglobalstate.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  simplestorage.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  stack.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  transaction.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  util.cpp
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\util.h(73,41): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(106,51): warning C4244: “初始化”: 从“uint64_t”转换到“uint8_t”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(106,38): warning C4244: “初始化”: 从“uint64_t”转换到“const uint8_t”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(152,52): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=uint8_t
+          ]
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(163,76): warning C4267: “初始化”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(163,76): warning C4267: “初始化”: 从“size_t”转换到“const uint8_t”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(194,1): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=uint8_t
+          ]
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(241): message : 查看对正在编译的函数 模板 实例化“eevm::rlp::ByteString eevm::rlp::encode_details::encode_single<eevm::Address>(const T &)”的引用
+          with
+          [
+              T=eevm::Address
+          ]
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(220): message : 查看对正在编译的函数 模板 实例化“eevm::rlp::ByteString eevm::rlp::encode<const eevm::Address&>(const eevm::Address &)”的引用
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(241): message : 查看对正在编译的函数 模板 实例化“std::tuple<std::vector<uint8_t,std::allocator<uint8_t>>,std::vector<uint8_t,std::allocator<uint8_t>>> eevm::rlp::encode_details::encode_multiple<const eevm::Address&,uint64_t&,void>(const eevm::Address &,uint64_t &)”的引用
+C:\Users\DCMMC\Downloads\AEEP-main\evm\src\eEVM\util.cpp(46): message : 查看对正在编译的函数 模板 实例化“eevm::rlp::ByteString eevm::rlp::encode<const eevm::Address&,uint64_t&>(const eevm::Address &,uint64_t &)”的引用
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(205,1): warning C4267: “初始化”: 从“size_t”转换到“uint8_t”，可能丢失数据
+C:\Users\DCMMC\Downloads\AEEP-main\evm\include\eEVM\rlp.h(205,1): warning C4267: “初始化”: 从“size_t”转换到“const uint8_t”，可能丢失数据
+  KeccakHash.c
+  KeccakP-1600-opt64.c
+  KeccakSpongeWidth1600.c
+  SimpleFIPS202.c
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 2924 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  evm.vcxproj -> C:\Users\DCMMC\Downloads\AEEP-main\bin\x64\Release\evm.exe
+  已复制         1 个文件。

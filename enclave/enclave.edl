@@ -1,6 +1,7 @@
 enclave {
 
     include "../enclave/ttt.h"
+    from "openenclave/edl/sgx/cpu.edl" import *;
 
     trusted {
         /* define ECALLs here. */
