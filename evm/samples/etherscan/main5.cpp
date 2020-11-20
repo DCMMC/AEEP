@@ -234,7 +234,6 @@ void call_function(
 }
 
 
-
 int main(int argc, char** argv) {
 
   srand(time(nullptr));
@@ -341,7 +340,7 @@ int main(int argc, char** argv) {
   int st_size = 0;
   eevm::Address contract_address = deploy_contract(contract_bin, deployer_address, deployer_nonce);
   for (int tt = 0; tt < transactions.size(); tt++) {
-    // std::cout << "transaction: " << tt << " " << transactions[tt] << std::endl;
+    std::cout << "transaction: " << tt << " " << transactions[tt] << std::endl;
     call_function(contract_address, bins[transactions[tt]], senders[transactions[tt]]);
 
     std::ifstream gs_json_file("globalstate.json");
@@ -375,7 +374,7 @@ int main(int argc, char** argv) {
           }
 
           for (std::map<std::string, std::string>::iterator it = storages[transactions[tt]].begin(); it != storages[transactions[tt]].end(); it++) {
-            //std::cout << "  key: " << it->first << std::endl;
+            std::cout << "  key: " << it->first << std::endl;
             st_size += 1;
             std::string evm_str = evm_storage.find(eevm::to_hex_string(eevm::to_uint256(it->first))) != evm_storage.end()? evm_storage[eevm::to_hex_string(eevm::to_uint256(it->first))]: "0x0";
             if (it->second != evm_str) {
@@ -391,8 +390,8 @@ int main(int argc, char** argv) {
   }
 
 
-  //std::cout << "Done, check " << transactions.size() << " transactions." << std::endl;
-  //std::cout << "Done, check " << st_size << " storages." << std::endl;
+  std::cout << "Done, check " << transactions.size() << " transactions." << std::endl;
+  std::cout << "Done, check " << st_size << " storages." << std::endl;
 
 
   return 0;
